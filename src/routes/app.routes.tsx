@@ -12,6 +12,8 @@ import Logo from '../assets/logo.png';
 
 const App = createStackNavigator();
 
+console.log('CHEGOU NAS ROTAS');
+
 const AppRoutes: React.FC = () => (
   <App.Navigator
     screenOptions={{
